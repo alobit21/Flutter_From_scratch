@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import '../widgets/profile_image.dart';
 import '../widgets/profile_info.dart';
-// import '../widgets/stats_row.dart';
+import '../widgets/stats_row.dart';
 import '../widgets/action_buttons.dart';
 
 class ProfileScreen extends StatelessWidget {
@@ -18,7 +18,7 @@ class ProfileScreen extends StatelessWidget {
             SizedBox(height: 16),
             ProfileInfo(),
             SizedBox(height: 20),
-            // StatsRow(),
+            StatsRow(),
             SizedBox(height: 20),
             ActionButtons(),
           ],
