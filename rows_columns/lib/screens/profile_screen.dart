@@ -8,6 +8,7 @@ class ProfileScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor:Colors.limeAccent[400],
       appBar: AppBar(title: Text("Profile")),
       body: Padding(
         padding: EdgeInsets.all(16),
